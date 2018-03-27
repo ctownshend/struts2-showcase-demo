@@ -422,11 +422,6 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.struts</groupId>
-                <artifactId>struts2-rest-plugin</artifactId>
-                <version>2.5.13</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.struts</groupId>
                 <artifactId>struts2-sitegraph-plugin</artifactId>
                 <version>${project.version}</version>
             </dependency>

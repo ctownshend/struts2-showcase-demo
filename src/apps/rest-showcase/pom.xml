@@ -38,10 +38,6 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.struts</groupId>
-            <artifactId>struts2-rest-plugin</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.struts</groupId>
             <artifactId>struts2-convention-plugin</artifactId>
         </dependency>
         <dependency>
@@ -93,6 +89,11 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+        	<groupId>org.apache.struts</groupId>
+        	<artifactId>struts2-rest-plugin</artifactId>
+        	<version>2.5.12</version>
+        </dependency>
     </dependencies>
 
     <build>
